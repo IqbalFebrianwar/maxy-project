@@ -1,10 +1,9 @@
 import dynamic from "next/dynamic";
-import { Metadata } from 'next'
 
 const Navbar = dynamic(() => import("@/app/forum/components/navbar"));
 const Sidebar = dynamic(() => import("@/app/forum/components/drawer"));
 
-export const Metadata = {
+export const metadata = {
   title: '...',
   description: '...',
   authors: '',
