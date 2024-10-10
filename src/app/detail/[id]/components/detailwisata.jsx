@@ -2,6 +2,7 @@
 import { useState } from "react";
 import Image from "next/image";
 
+
 const Detailwisata = () => {
   const imageLinks = [
     "https://res.cloudinary.com/df6nytit6/image/upload/v1728489957/maxyproject/wisata-bopgor_xxdo3f.webp",

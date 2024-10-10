@@ -4,12 +4,12 @@ const Navbar = () => {
   return (
     <div className="navbar bg-white text-black px-36 py-5 border border-gray-300">
       <div className="navbar-start">
-        <a className="btn btn-ghost text-xl">Leuwimalang</a>
+        <Link href="/beranda" className="btn btn-ghost text-xl">Leuwimalang</Link>
       </div>
       <div className="navbar-center hidden lg:flex">
         <ul className="menu menu-horizontal px-1">
           <li>
-            <a>Beranda</a>
+            <Link href="/beranda">Beranda</Link>
           </li>
           <li>
             <a>Tentang</a>

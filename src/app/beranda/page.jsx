@@ -7,7 +7,7 @@ const Wisata = dynamic (()=> import("@/app/beranda/components/wisata"))
 
 export default function Home() {
   return (
-    <main className="pb-64">
+    <main className="pb-10">
       <Banner />
       <div className="w-full justify-between flex py-5 px-32">
         <h1 className="text-black font-semibold text-2xl">Rekomendasi Tempat Wisata</h1>
