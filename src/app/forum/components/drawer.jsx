@@ -45,7 +45,7 @@ const Drawer = () => {
             </Link>
           </div>
           <div className="py-5">
-            <h1 className="text-xs py-2">Kategori</h1>
+            <h1 className="text-xs py-2 font-semibold">Kategori</h1>
             <div className="flex items-center space-x-2 px-5 py-2">
               <div className="w-4 h-4 rounded bg-blue-500">
                 
@@ -68,6 +68,24 @@ const Drawer = () => {
               </div>
               <Link href="" className="text-gray-400 font-semibold">
                 Warga RW 22
+              </Link>
+            </div>
+          </div>
+          <div className="py-5">
+            <h1 className="text-xs py-2 font-semibold">Hastags</h1>
+            <div className="flex items-center space-x-2 px-5 py-2">
+              <Link href="" className="text-gray-400 font-semibold">
+                #budayatari
+              </Link>
+            </div>
+            <div className="flex items-center space-x-2 px-5 py-2">
+              <Link href="" className="text-gray-400 font-semibold">
+                #wisataalam
+              </Link>
+            </div>
+            <div className="flex items-center space-x-2 px-5 py-2">
+              <Link href="" className="text-gray-400 font-semibold">
+                #budayamakanan
               </Link>
             </div>
           </div>
